@@ -1,0 +1,8 @@
+const fs = require("fs")
+let num = fs.readFileSync("./input.in").toString().split(" ")
+num = num.map(Number)
+console.log(num[0] + num[1])
+console.log(num[0] - num[1])
+console.log(num[0] * num[1])
+console.log(Math.floor(num[0] / num[1 ]))
+console.log(num[0] % num[1]) 
